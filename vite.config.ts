@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/SARD/', // أضف هذا السطر هنا بدقة
+    base: '/SARD/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
